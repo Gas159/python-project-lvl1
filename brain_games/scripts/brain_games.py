@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-# import brain_games.cli
+# import brain_games.cli1
 import brain_games.cli
+
 
 def greet():
     print("Welcome to the Brain Games!")
@@ -9,8 +10,8 @@ def greet():
 
 def main():
     greet()
+    #cli.welcome_user()
     brain_games.cli.welcome_user()
-    # brain_games.cli1.welcome_user()
     # welcome_user()
 
 
