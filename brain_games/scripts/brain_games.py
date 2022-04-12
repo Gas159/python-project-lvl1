@@ -10,7 +10,7 @@ def greet():
 
 def main():
     greet()
-    #cli.welcome_user()
+    # cli.welcome_user()
     brain_games.cli.welcome_user()
     # welcome_user()
 
