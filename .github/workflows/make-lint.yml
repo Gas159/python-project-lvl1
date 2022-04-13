@@ -1,0 +1,13 @@
+name: make lint
+on: push
+jobs:
+  my-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: instal dependecies
+        run: |
+          pip install poetry
+          make install
+      - name: run lint
+        run: |
+          make lint
