@@ -3,6 +3,7 @@
 
 <a href="https://codeclimate.com/github/Gas159/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/7ddab7f2853786d75022/maintainability" /></a>
 
-[![make lint](https://github.com/Gas159/python-project-lvl1/actions/workflows/make-lint.yml/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions/workflows/make-lint.yml)  
+[![make lint](https://github.com/Gas159/python-project-lvl1/workflows/make-lint/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions/workflows/make-lint.yml)  
  
+[![hello-world](https://github.com/Gas159/python-project-lvl1/workflows/hello-world/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions/workflows/hello-world.yml)
 Да прибудет с тобой сила!
