@@ -1,9 +1,13 @@
 # Makefile
+
 install: #install ))
 	poetry install
 
 brain-games:
 	poetry run brain-games
+
+brain-even:
+	poetry run brain-even
 
 build:
 	poetry build
@@ -17,5 +21,12 @@ package-install:
 lint:
 	poetry run flake8 brain_games
 
+patch:
+	poetry install
+	poetry publish --dry-run
+	poetry build
+	poetry run flake8 brain_games
+	python3 -m pip install --user dist/*.whl
 
-
+asciinema:
+	asciinema rec

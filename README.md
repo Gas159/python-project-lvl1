@@ -7,6 +7,13 @@
  
 [![hello-world](https://github.com/Gas159/python-project-lvl1/workflows/hello-world/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions/workflows/hello-world.yml)
 
+https://asciinema.org/a/CUVG85rDDVLDBPFo5N19ZvIgz
+
+
+
 Да прибудет с тобой сила!
+
+
+
 
 Ps «Il semble que la perfection soit atteinte non quand il n’y a plus rien à ajouter, mais quand il n’y a plus rien à retrancher»

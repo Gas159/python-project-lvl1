@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import brain_games.cli
+from brain_games.even_games import is_even
 
 
 def greet():
@@ -9,9 +9,7 @@ def greet():
 
 def main():
     greet()
-    # cli.welcome_user()
-    brain_games.cli.welcome_user()
-    # welcome_user()
+    is_even()
 
 
 if __name__ == "__main__":
