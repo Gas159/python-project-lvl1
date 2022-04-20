@@ -1,3 +1,4 @@
 .vscode
 .venv
+.idea
 cli1.py

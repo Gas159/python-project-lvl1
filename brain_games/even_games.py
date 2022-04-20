@@ -20,6 +20,7 @@ def is_even():
         print(f"Question: {random_num}")
 
         user_answer = input("Your answer: ")
+
         if user_answer == true_answer:
             print("Correct!")
 
