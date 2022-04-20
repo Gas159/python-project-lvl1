@@ -7,6 +7,9 @@
  
 [![hello-world](https://github.com/Gas159/python-project-lvl1/workflows/hello-world/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions/workflows/hello-world.yml)
 
+[![asciicast](https://asciinema.org/a/16zzanRim5081k0AiOxmY7c8r.svg)](https://asciinema.org/a/16zzanRim5081k0AiOxmY7c8r)
+
+https://asciinema.org/a/16zzanRim5081k0AiOxmY7c8r -gcd
 https://asciinema.org/a/CUVG85rDDVLDBPFo5N19ZvIgz
 
 

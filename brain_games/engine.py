@@ -6,12 +6,12 @@ def greeting(game):
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
 
-    print(game.GAME_TASK)
+    print(game.game_task)
 
-    for _ in range(1):
+    for _ in range(2):
         question, correct_answer = game.get_question()
         print(f"Question: {question}")
-        print(correct_answer)
+        print("Правильный ответ(тест) -", correct_answer)
         user_answer = prompt.string("Your answer: ")
 
         if user_answer == str(correct_answer):

@@ -1,6 +1,6 @@
 import random
 
-GAME_TASK = "What is the result of the expression?"
+game_task = "What is the result of the expression?"
 
 
 def get_operator(num1, num2):
