@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python
 import brain_games.engine
 import brain_games.games.gcd
 

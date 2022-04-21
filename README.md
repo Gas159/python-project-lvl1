@@ -9,6 +9,7 @@
 
 [![asciicast](https://asciinema.org/a/16zzanRim5081k0AiOxmY7c8r.svg)](https://asciinema.org/a/16zzanRim5081k0AiOxmY7c8r)
 
+<a href="https://asciinema.org/a/16zzanRim5081k0AiOxmY7c8r" target="_blank"><img src="https://asciinema.org/a/16zzanRim5081k0AiOxmY7c8r.svg" /></a>
 https://asciinema.org/a/16zzanRim5081k0AiOxmY7c8r -gcd
 https://asciinema.org/a/CUVG85rDDVLDBPFo5N19ZvIgz
 
