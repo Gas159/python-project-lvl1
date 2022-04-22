@@ -2,4 +2,4 @@
 .venv
 .idea
 cli1.py
-even_games.py
+__pycache__
