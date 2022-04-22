@@ -14,4 +14,4 @@ def get_question():
     correct_answer = progresion.pop(random_index_for_change)
     progresion.insert(random_index_for_change, "..")
     question = " ".join(map(str, progresion))
-    return question, correct_answer
+    return question, str(correct_answer)
