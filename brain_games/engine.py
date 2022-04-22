@@ -23,4 +23,4 @@ def greeting(game):
                 f" Correct answer was '{correct_answer}'."
                 f"\nLet's try again, {name}!")
 
-    return print(f"Congratulations, {name}!!!")
+    return print(f"Congratulations, {name}!")
