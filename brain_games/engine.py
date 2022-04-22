@@ -11,7 +11,7 @@ def greeting(game):
     for _ in range(3):
         question, correct_answer = game.get_question()
         print(f"Question: {question}")
-        print("Правильный ответ(тест) -", correct_answer)
+        #print("Правильный ответ(тест) -", correct_answer)
         user_answer = prompt.string("Your answer: ")
 
         if user_answer == str(correct_answer):
