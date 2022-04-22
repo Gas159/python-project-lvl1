@@ -13,9 +13,5 @@ def get_question():
     progresion = [*range(start, stop, step)]
     correct_answer = progresion.pop(random_index_for_change)
     progresion.insert(random_index_for_change, "..")
-    question = progresion
-
+    question = " ".join(map(str, progresion))
     return question, correct_answer
-
-
-# print(get_question())
