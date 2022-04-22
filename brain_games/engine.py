@@ -8,7 +8,7 @@ def greeting(game):
 
     print(game.game_task)
 
-    for _ in range(2):
+    for _ in range(3):
         question, correct_answer = game.get_question()
         print(f"Question: {question}")
         print("Правильный ответ(тест) -", correct_answer)
