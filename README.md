@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Gas159/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions)
-<a href="https://codeclimate.com/github/Gas159/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/7ddab7f2853786d75022/maintainability" /></a>
+[![Maintainability](https://api.codeclimate.com/v1/badges/7ddab7f2853786d75022/maintainability)](https://codeclimate.com/github/Gas159/python-project-lvl1/maintainability)
 [![make lint](https://github.com/Gas159/python-project-lvl1/workflows/make%20lint/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions/workflows/make-lint.yml)  
 
 Installation:
@@ -11,26 +11,26 @@ python3 -m pip install --user git+https://github.com/Gas159/python-project-lvl1.
 
 
 Calculation.
-https://asciinema.org/a/PlUCSrfJTfjkVe6YeLTid8xcV
+[![asciicast](https://asciinema.org/a/PlUCSrfJTfjkVe6YeLTid8xcV.svg)](https://asciinema.org/a/PlUCSrfJTfjkVe6YeLTid8xcV)
 
 
 
 Even number or not.
- https://asciinema.org/a/UwLz2z1YshLM5SAJdUX3aHkXK
+[![asciicast](https://asciinema.org/a/UwLz2z1YshLM5SAJdUX3aHkXK.svg)](https://asciinema.org/a/UwLz2z1YshLM5SAJdUX3aHkXK)
  
 
 
 Greatest common divisor.
-https://asciinema.org/a/gFQLOdFGkkLWEU3BDiiUXeK9f
+[![asciicast](https://asciinema.org/a/gFQLOdFGkkLWEU3BDiiUXeK9f.svg)](https://asciinema.org/a/gFQLOdFGkkLWEU3BDiiUXeK9f)
 
 
 
 Prime or not.
-https://asciinema.org/a/vaOOUj3h7SYcpte8u5XRJdpCx
+[![asciicast](https://asciinema.org/a/vaOOUj3h7SYcpte8u5XRJdpCx.svg)](https://asciinema.org/a/vaOOUj3h7SYcpte8u5XRJdpCx)
 
 
 Empty number in progression.
-https://asciinema.org/a/syxaRPwwCd8t2VnzpVznx01us
+[![asciicast](https://asciinema.org/a/syxaRPwwCd8t2VnzpVznx01us.svg)](https://asciinema.org/a/syxaRPwwCd8t2VnzpVznx01us)
 
 
 
