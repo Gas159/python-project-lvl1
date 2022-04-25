@@ -9,9 +9,9 @@ def get_question():
     length = randint(6, 10)
     stop = step * length + start
     random_index_for_change = randint(0, length - 1)
-    print(random_index_for_change, length)
+    # print(random_index_for_change, length)
     progression = list(range(start, stop, step))
-    print(progression)
+    # print(progression)
     question = ""
     correct_answer = progression[random_index_for_change]
 
@@ -24,6 +24,3 @@ def get_question():
     # progression.insert(random_index_for_change, "..")
     # question = " ".join(map(str, progression))
     return question, str(correct_answer)
-
-
-print(get_question())

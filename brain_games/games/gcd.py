@@ -18,6 +18,3 @@ def get_question():
     num2 = random.randint(1, 10) * base_num
     question = "{} {}".format(num1, num2)
     return question, get_gcd(num1, num2)
-
-
-
