@@ -1,14 +1,15 @@
 import prompt
 
 
-def greeting(game):
+def run_engine(game):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
 
-    print(game.game_task)
+    print(game.GAME_TASK)
+    attempt_number = 3
 
-    for _ in range(3):
+    for _ in range(attempt_number):
         question, correct_answer = game.get_question()
         print(f"Question: {question}")
         # print("Правильный ответ(тест) -", correct_answer)
@@ -18,9 +19,11 @@ def greeting(game):
             print("Correct!")
 
         else:
-            return print(
+            print(
                 f"'{user_answer}' is wrong answer ;(."
                 f" Correct answer was '{correct_answer}'."
                 f"\nLet's try again, {name}!")
+            break
 
-    return print(f"Congratulations, {name}!")
+    else:
+        print(f"Congratulations, {name}!")
