@@ -18,7 +18,8 @@ def get_question():
     for i in range(length):
         if random_index_for_change == i:
             question += ".. "
-        question += str(progression[i]) + " "
+        else:
+            question += str(progression[i]) + " "
 
     # correct_answer = progression.pop(random_index_for_change)
     # progression.insert(random_index_for_change, "..")
