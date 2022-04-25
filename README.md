@@ -3,7 +3,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/7ddab7f2853786d75022/maintainability)](https://codeclimate.com/github/Gas159/python-project-lvl1/maintainability)
 [![make lint](https://github.com/Gas159/python-project-lvl1/workflows/make%20lint/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions/workflows/make-lint.yml)  
 
-Этот репозитарий из пяти консольных игр для мозга.
+This repository with a set of five console games built on the principle of popular mobile brain training applications.
+
+Этот репозиторий с набором из пяти консольных игр построен по принципу популярных мобильных приложений для тренировки мозга.
 
 
 ## Installation:
