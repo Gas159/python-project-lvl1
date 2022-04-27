@@ -9,19 +9,13 @@ def get_question():
     length = randint(6, 10)
     stop = step * length + start
     random_index_for_change = randint(0, length - 1)
-    # print(random_index_for_change, length)
-    progression = list(range(start, stop, step))
-    # print(progression)
-    question = ""
-    correct_answer = progression[random_index_for_change]
 
+    progression = list(range(start, stop, step))
+    correct_answer = progression[random_index_for_change]
+    question = ""
     for i in range(length):
         if random_index_for_change == i:
             question += ".. "
         else:
             question += str(progression[i]) + " "
-
-    # correct_answer = progression.pop(random_index_for_change)
-    # progression.insert(random_index_for_change, "..")
-    # question = " ".join(map(str, progression))
     return question, str(correct_answer)
