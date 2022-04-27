@@ -3,16 +3,21 @@ import random
 GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_check_prime_num(question, div_num, correct_answer):
-    while div_num > 1 and correct_answer == "yes":
-        if question % div_num == 0:
-            correct_answer = "no"
-        div_num -= 1
-    return correct_answer
-
-
-def get_question():
-    question = random.randint(3, 20)
+def check_prime(question):
     div_num = question // 2
-    correct_answer = "yes"
-    return question, get_check_prime_num(question, div_num, correct_answer)
+    answer = True
+    while div_num > 1:
+        if question % div_num == 0:
+            answer = False
+            break
+        div_num -= 1
+    return answer
+
+
+def get_question_and_answer():
+    question = random.randint(3, 20)
+    if check_prime(question) is True:
+        correct_answer = "yes"
+    else:
+        correct_answer = "no"
+    return question, correct_answer
