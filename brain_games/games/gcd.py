@@ -12,7 +12,7 @@ def get_gcd(num1, num2):
     return num1 + num2
 
 
-def get_question():
+def get_question_and_answer():
     base_num = random.randint(2, 10)
     num1 = random.randint(1, 10) * base_num
     num2 = random.randint(1, 10) * base_num
