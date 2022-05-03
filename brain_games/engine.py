@@ -1,5 +1,7 @@
 import prompt
 
+ROUND = 3
+
 
 def run(game):
     print("Welcome to the Brain Games!")
@@ -7,7 +9,6 @@ def run(game):
     print(f"Hello, {name}!")
 
     print(game.GAME_TASK)
-    ROUND = 3
 
     for _ in range(ROUND):
         question, correct_answer = game.get_question_and_answer()
