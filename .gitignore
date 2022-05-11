@@ -3,5 +3,6 @@
 .idea
 cli1.py
 __pycache__
+test
 dist
 brain_games/__init__.pyc
