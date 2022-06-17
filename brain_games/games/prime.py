@@ -5,8 +5,8 @@ GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def check_prime(question):
-    for i in range(1, int(sqrt(question) + 1)):
-        if question % i == 0:
+    for i in range(1, int(sqrt(question))):
+        if sqrt(question) % i == 0:
             return False
     return True
 
