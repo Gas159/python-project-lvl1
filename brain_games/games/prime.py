@@ -4,7 +4,7 @@ GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
-    if num <=1:
+    if num <= 1:
         return None
     d = 2
     while d * d <= num and num % d != 0:
