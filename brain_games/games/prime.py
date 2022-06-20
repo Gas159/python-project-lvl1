@@ -6,10 +6,10 @@ GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def is_prime(num):
     if num <= 1:
         return False
-    d = 2
-    while d * d <= num and num % d != 0:
-        d += 1
-    return d * d > num
+    div = 2
+    while div * div <= num and num % div != 0:
+        div += 1
+    return div * div > num
 
 
 def get_question_and_answer():
