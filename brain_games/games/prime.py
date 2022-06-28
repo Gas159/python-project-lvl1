@@ -6,9 +6,8 @@ GAME_TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def is_prime(num):
     if num <= 1:
         return False
-    for i in range(2, num // 2 + 1):
-        print(i)
-        if num % i == 0:
+    for div in range(2, num // 2 + 1):
+        if num % div == 0:
             return False
     return True
 
