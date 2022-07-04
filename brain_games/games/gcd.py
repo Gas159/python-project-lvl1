@@ -17,4 +17,4 @@ def get_question_and_answer():
     num1 = random.randint(1, 10) * base_num
     num2 = random.randint(1, 10) * base_num
     question = "{} {}".format(num1, num2)
-    return question, get_gcd(num1, num2)
+    return question, str(get_gcd(num1, num2))

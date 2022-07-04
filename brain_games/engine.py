@@ -14,7 +14,7 @@ def run(game):
         question, correct_answer = game.get_question_and_answer()
         print(f"Question: {question}")
         user_answer = prompt.string("Your answer: ")
-        if user_answer == str(correct_answer):
+        if user_answer == correct_answer:
             print("Correct!")
         else:
             print(

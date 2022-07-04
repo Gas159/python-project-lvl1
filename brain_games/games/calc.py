@@ -15,4 +15,5 @@ def get_question_and_answer():
     elif operator == "*":
         answer = num1 * num2
     question = f"{num1} {operator} {num2}"
-    return question, answer
+    return question, str(answer)
+

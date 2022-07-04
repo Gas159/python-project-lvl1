@@ -18,4 +18,4 @@ def get_question_and_answer():
         correct_answer = "yes"
     else:
         correct_answer = "no"
-    return question, correct_answer
+    return question, str(correct_answer)
