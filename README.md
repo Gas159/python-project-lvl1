@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Gas159/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/7ddab7f2853786d75022/maintainability)](https://codeclimate.com/github/Gas159/python-project-lvl1/maintainability)
-[![make lint](https://github.com/Gas159/python-project-lvl1/workflows/make%20lint/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions/workflows/make-lint.yml)  
+[![make lint1](https://github.com/Gas159/python-project-lvl1/workflows/make%20lint/badge.svg)](https://github.com/Gas159/python-project-lvl1/actions/workflows/make-lint2.yml)  
 
 This repository with a set of five console games built on the principle of popular mobile brain training applications.
 
