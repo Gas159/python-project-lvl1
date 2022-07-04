@@ -16,4 +16,3 @@ def get_question_and_answer():
         answer = num1 * num2
     question = f"{num1} {operator} {num2}"
     return question, str(answer)
-
