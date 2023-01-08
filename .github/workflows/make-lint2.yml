@@ -1,4 +1,4 @@
-name: make lintos
+name: lint
 
 on: push
 
